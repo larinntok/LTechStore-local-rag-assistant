@@ -1,0 +1,36 @@
+Sales Data:
+
+Date: 2026-07-01
+Product: Laptop
+Category: Technology
+Quantity: 5
+Revenue: 5000
+Unit Price: 1000
+
+Date: 2026-07-01
+Product: Mouse
+Category: Technology
+Quantity: 25
+Revenue: 500
+Unit Price: 20
+
+Date: 2026-07-02
+Product: Smartphone
+Category: Technology
+Quantity: 2
+Revenue: 4000
+Unit Price: 2000
+
+Date: 2026-07-03
+Product: Laptop
+Category: Technology
+Quantity: 3
+Revenue: 3000
+Unit Price: 1000
+
+Date: 2026-07-04
+Product: Tablet
+Category: Technology
+Quantity: 4
+Revenue: 4800
+Unit Price: 1200

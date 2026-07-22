@@ -1,0 +1,21 @@
+Product Catalog:
+
+Product: Laptop
+Category: Technology
+Description: High performance laptop suitable for professional and personal use.
+Unit Price: 1000
+
+Product: Mouse
+Category: Technology
+Description: Computer accessory used for navigation and daily computer tasks.
+Unit Price: 20
+
+Product: Smartphone
+Category: Technology
+Description: Mobile technology device used for communication, applications, and daily tasks.
+Unit Price: 2000
+
+Product: Tablet
+Category: Technology
+Description: Portable touchscreen device designed for productivity and entertainment.
+Unit Price: 1200

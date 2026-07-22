@@ -1,0 +1,21 @@
+Inventory Summary:
+
+The product sales quantities are:
+
+Laptop:
+Total Quantity Sold: 8
+Total Revenue: 8000
+
+Mouse:
+Total Quantity Sold: 25
+Total Revenue: 500
+
+Smartphone:
+Total Quantity Sold: 2
+Total Revenue: 4000
+
+Tablet:
+Total Quantity Sold: 4
+Total Revenue: 4800
+
+According to the inventory data, Mouse has the highest quantity sold with 25 units.
