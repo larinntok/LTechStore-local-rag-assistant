@@ -5,7 +5,7 @@ import os
 
 from foundry_local_sdk import Configuration, FoundryLocalManager
 
-DB_NAME = "supermarket_rag.db"
+DB_NAME = "ltechstore_rag.db"
 
 config = Configuration(app_name="FoundryLocalProject")
 FoundryLocalManager.initialize(config)
@@ -185,7 +185,6 @@ print("You can ask questions such as:\n")
 
 print("- Who is the company owner?")
 print("- What products do you sell?")
-print("- Is the Gaming Laptop in stock?")
 print("- What are your working hours?")
 print("- How can I contact customer support?")
 
@@ -207,10 +206,6 @@ while True:
             print("\nAssistant is thinking...\n")
 
             answer = get_assistant_response(question)
-
-            print("=" * 50)
-            print(answer)
-            print("=" * 50)
 
         except KeyboardInterrupt:
             print("\nSession ended.")
