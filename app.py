@@ -183,7 +183,7 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
 print("You can ask questions such as:\n")
 
-print("- Who is the company owner?")
+print("- What are your shipping options?")
 print("- What products do you sell?")
 print("- What are your working hours?")
 print("- How can I contact customer support?")
@@ -206,6 +206,7 @@ while True:
             print("\nAssistant is thinking...\n")
 
             answer = get_assistant_response(question)
+            print(answer)
 
         except KeyboardInterrupt:
             print("\nSession ended.")
