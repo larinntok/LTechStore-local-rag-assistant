@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ---
 
 ## Run the Project
-
+Running py ingest.py automatically creates the ltechstore_rag.db database from the documents.
 Create the knowledge base:
 
 ```bash
@@ -93,7 +93,7 @@ py app.py
 ```
 
 ---
-Running py ingest.py automatically creates the ltechstore_rag.db database from the documents.
+
 
 ## Example Questions
 
