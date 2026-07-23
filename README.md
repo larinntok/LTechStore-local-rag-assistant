@@ -83,13 +83,13 @@ pip install -r requirements.txt
 Create the knowledge base:
 
 ```bash
-python ingest.py
+py ingest.py
 ```
 
 Start the assistant:
 
 ```bash
-python app.py
+py app.py
 ```
 
 ---
