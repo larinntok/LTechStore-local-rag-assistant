@@ -1,6 +1,6 @@
 # LTechStore Local RAG Assistant
 
-An offline Retrieval-Augmented Generation (RAG) AI assistant built with Microsoft Foundry Local. The assistant answers user questions using information retrieved from local documents instead of relying on internet access.
+An offline RAG AI assistant built with Microsoft Foundry Local. The assistant answers user questions using information retrieved from local documents instead of relying on internet access.
 
 ## Features
 
@@ -110,16 +110,16 @@ python app.py
 **Question**
 
 ```
-Who is the company owner?
+What is your warranty and return policy?
 ```
 
 **Answer**
 
 ```
-Larin TOK
+All technology products come with a 2-year official warranty. Returns are accepted within 14 days of purchase with the original receipt.
 
 Source:
-company_info.txt
+faq.txt
 ```
 
 ---
@@ -139,5 +139,5 @@ I don't know based on the available documents.
 ---
 
 ## Author
-LARİN TOK
-Microsoft Foundry Local Summer School Project
+LARİN TOK-
+Microsoft Foundry Local Summer School Internship Project
