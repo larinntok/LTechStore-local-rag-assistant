@@ -1,7 +1,7 @@
 # LTechStore Local RAG AI Assistant
 
 A fully offline Retrieval-Augmented Generation (RAG) assistant built with **Microsoft Foundry Local**, **Phi-3.5 Mini**, **Qwen3 Embedding**, and **SQLite**.
-![Demo](assets/demo1.png)
+
 The assistant retrieves relevant information from a local knowledge base using semantic search and generates context-aware responses without relying on cloud services, external APIs, or internet access.
 
 ---
@@ -177,7 +177,7 @@ Before starting the assistant, create the local knowledge base by indexing the d
 ```bash
 py ingest.py
 ```
-
+![Demo](assets/demo1.png)
 The ingestion process:
 
 * Reads all documents in the `documents` directory
@@ -249,6 +249,8 @@ What is the unit price of the Tablet?
 ```
 
 ---
+![Demo](assets/demo2.png)
+![Demo](assets/demo3.png)
 
 ## Example Output
 
@@ -273,7 +275,7 @@ faq.txt
 ```
 
 ---
-
+![Demo](assets/demo3.png)
 ### Question
 
 ```text
@@ -285,7 +287,7 @@ Who is the president of France?
 ```text
 I don't know based on the available documents.
 ```
-
+![Demo](assets/demo4.png)
 This behavior ensures that responses remain grounded in the indexed knowledge base instead of relying on the language model's general knowledge.
 
 ---
