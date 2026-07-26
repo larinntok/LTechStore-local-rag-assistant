@@ -1,34 +1,18 @@
 # LTechStore Local RAG AI Assistant
 
-A fully offline RAG assistant built with **Microsoft Foundry Local**, **Phi-3.5 Mini**, **Qwen3 Embedding**, and **SQLite**. The assistant retrieves relevant information from a local knowledge base using semantic search and generates context-aware responses without relying on cloud services, external APIs, or internet access.
+An offline Retrieval-Augmented Generation (RAG) assistant that answers questions using information retrieved from local documents. Built with Microsoft Foundry Local, Phi-3.5 Mini, Qwen3 Embedding, and SQLite.
 
 ## Overview
 
-LTechStore Local RAG AI Assistant is a local AI application that demonstrates a complete Retrieval-Augmented Generation (RAG) workflow using Microsoft's Foundry Local SDK.
+LTechStore Local RAG AI Assistant is a simple offline application that demonstrates how a RAG pipeline can be built using Microsoft Foundry Local.
 
-Instead of sending user queries to online AI services, the application retrieves relevant document chunks from a local SQLite database using semantic similarity and provides them as context to a locally hosted language model.
-
-The entire pipeline, including document ingestion, embedding generation, vector retrieval, and response generation, runs locally.
-
----
 
 ## Features
 
-* Fully offline AI assistant
-* Microsoft Foundry Local integration
-* Phi-3.5 Mini language model
-* Qwen3 Embedding model
-* Retrieval-Augmented Generation (RAG)
-* Automatic document ingestion
-* Semantic vector search
-* Cosine similarity retrieval
-* SQLite knowledge base
-* Source-grounded responses
-* Source citation
-* Command Line Interface (CLI)
-* Privacy-first architecture
-* No cloud dependency
-* No API costs
+*Runs completely offline
+*No cloud services required
+*No API costs
+*Answers include source citations
 
 ---
 
@@ -70,7 +54,7 @@ F --> G
 5. User questions are converted into embeddings.
 6. Cosine similarity is used to retrieve the most relevant document chunks.
 7. Retrieved context is combined with the user query.
-8. Phi-3.5 Mini generates a grounded response.
+8. Phi-3.5 Mini generates an answer based only on the retrieved context.
 9. The assistant returns the generated answer together with its source document.
 
 If no relevant information is found, the assistant responds with:
@@ -201,13 +185,13 @@ After initialization, the application loads:
 * Qwen3 Embedding
 * SQLite knowledge base
 
-The assistant is then ready to answer questions.
+Once the models are loaded, you can start asking questions from the command line.
 
 ---
 
 ## Knowledge Base
 
-The assistant retrieves information exclusively from local documents stored in the `documents` directory.
+The assistant only uses the documents stored in the documents directory. It doesn't access the internet or external APIs.
 
 Current knowledge sources:
 
@@ -302,7 +286,7 @@ This behavior ensures that responses remain grounded in the indexed knowledge ba
 
 ## Future Improvements
 
-The current implementation demonstrates a complete local RAG workflow. Possible future enhancements include:
+This project can be extended with additional features such as:
 
 * PDF document ingestion
 * CSV document ingestion
