@@ -328,18 +328,3 @@ The current implementation demonstrates a complete local RAG workflow. Possible 
 Mathematics and Computer Science Student
 
 Microsoft Foundry Local Summer School Project
-
-**Areas of Interest**
-
-* Artificial Intelligence
-* Retrieval-Augmented Generation (RAG)
-* Data Engineering
-* Machine Learning
-* Local AI Systems
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
