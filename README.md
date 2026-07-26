@@ -9,10 +9,21 @@ LTechStore Local RAG AI Assistant is a simple offline application that demonstra
 
 ## Features
 
-*Runs completely offline
-*No cloud services required
-*No API costs
-*Answers include source citations
+Fully offline AI assistant 
+Microsoft Foundry Local integration 
+Phi-3.5 Mini language model 
+Qwen3 Embedding model 
+Retrieval-Augmented Generation (RAG) 
+Automatic document ingestion 
+Semantic vector search 
+Cosine similarity retrieval 
+SQLite knowledge base 
+Source-grounded responses 
+Source citation 
+Command Line Interface (CLI) 
+Privacy-first architecture 
+No cloud dependency 
+No API costs Architecture
 
 ---
 
@@ -204,8 +215,6 @@ Current knowledge sources:
 | `products.txt`     | Product catalog            |
 | `sales.txt`        | Sales records              |
 
-No external websites, APIs, or internet search are used during inference.
-
 ---
 
 ## Example Questions
@@ -288,16 +297,11 @@ This behavior ensures that responses remain grounded in the indexed knowledge ba
 
 This project can be extended with additional features such as:
 
-* PDF document ingestion
-* CSV document ingestion
-* FAISS vector indexing
-* Hybrid keyword and semantic search
-* Conversation history
-* Web interface
-* Docker support
-* REST API
-* Unit testing
-* GitHub Actions CI/CD
+- PDF document support
+- CSV document support
+- FAISS vector indexing
+- Conversation memory
+- Streamlit web interface
 
 ---
 
