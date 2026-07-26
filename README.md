@@ -95,7 +95,6 @@ LTechStore-Local-RAG-Assistant/
 ├── ltechstore_rag.db
 ├── requirements.txt
 └── README.md
-
 ```
 
 | File                | Description                                               |
