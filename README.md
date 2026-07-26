@@ -3,27 +3,22 @@
 An offline Retrieval-Augmented Generation (RAG) assistant that answers questions using information retrieved from local documents. Built with Microsoft Foundry Local, Phi-3.5 Mini, Qwen3 Embedding, and SQLite.
 
 ## Overview
-
-LTechStore Local RAG AI Assistant is a simple offline application that demonstrates how a RAG pipeline can be built using Microsoft Foundry Local.
-
+LTechStore Local RAG AI Assistant is a simple offline application that demonstrates how a Retrieval-Augmented Generation (RAG) pipeline can be built using Microsoft Foundry Local. It retrieves relevant information from local documents using semantic search and generates answers based only on the retrieved context, without relying on external APIs or cloud services.
 
 ## Features
 
-Fully offline AI assistant 
-Microsoft Foundry Local integration 
-Phi-3.5 Mini language model 
-Qwen3 Embedding model 
-Retrieval-Augmented Generation (RAG) 
-Automatic document ingestion 
-Semantic vector search 
-Cosine similarity retrieval 
-SQLite knowledge base 
-Source-grounded responses 
-Source citation 
-Command Line Interface (CLI) 
-Privacy-first architecture 
-No cloud dependency 
-No API costs Architecture
+- Runs completely offline
+- Retrieval-Augmented Generation (RAG)
+- Microsoft Foundry Local integration
+- Phi-3.5 Mini language model
+- Qwen3 Embedding model
+- Semantic vector search
+- SQLite knowledge base
+- Automatic document ingestion
+- Source-grounded responses with citations
+- No cloud services or external APIs
+- No API costs
+- Command Line Interface (CLI)
 
 ---
 
@@ -54,7 +49,6 @@ E --> F
 F --> G
 ```
 
----
 
 ## How It Works
 
@@ -244,7 +238,6 @@ What is the unit price of the Tablet?
 
 ### Question
 
-
 ```text
 What is your warranty and return policy?
 ```
@@ -310,5 +303,4 @@ This project can be extended with additional features such as:
 **Larin Tok**
 
 Mathematics and Computer Science Student
-
 Microsoft Foundry Local Summer School Project
