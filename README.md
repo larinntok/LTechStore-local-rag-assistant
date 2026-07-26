@@ -274,7 +274,6 @@ faq.txt
 ```
 
 ---
-![Demo](assets/demo3.png)
 ### Question
 
 ```text
