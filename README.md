@@ -75,6 +75,12 @@ I don't know based on the available documents.
 ```text
 LTechStore-Local-RAG-Assistant/
 │
+├── assets/
+│   ├── demo1.png
+│   ├── demo2.png
+│   ├── demo3.png
+│   └── demo4.png
+│
 ├── documents/
 │   ├── company_info.txt
 │   ├── faq.txt
@@ -88,6 +94,7 @@ LTechStore-Local-RAG-Assistant/
 ├── ltechstore_rag.db
 ├── requirements.txt
 └── README.md
+
 ```
 
 | File                | Description                                               |
