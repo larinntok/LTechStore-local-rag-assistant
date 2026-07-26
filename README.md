@@ -249,7 +249,6 @@ What is the unit price of the Tablet?
 ```
 
 ---
-![Demo](assets/demo2.png)
 ![Demo](assets/demo3.png)
 
 ## Example Output
@@ -260,7 +259,7 @@ What is the unit price of the Tablet?
 ```text
 What is your warranty and return policy?
 ```
-
+![Demo](assets/demo2.png)
 ### Response
 
 ```text
