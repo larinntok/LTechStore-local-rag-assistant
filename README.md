@@ -1,6 +1,6 @@
 # LTechStore Local RAG AI Assistant
 
-An offline Retrieval-Augmented Generation (RAG) assistant that answers questions using information retrieved from local documents. Built with Microsoft Foundry Local, Phi-3.5 Mini, Qwen3 Embedding, and SQLite.
+An offline RAG assistant that answers questions using information retrieved from local documents. Built with Microsoft Foundry Local, Phi-3.5 Mini, Qwen3 Embedding, and SQLite.
 
 ## Overview
 
